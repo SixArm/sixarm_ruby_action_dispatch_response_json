@@ -11,16 +11,31 @@
 
 ## Introduction
 
-Add ActionPack Response#json method.
+This gem extends ActionPack Response with JSON API methods.
 
-So instead of this:
+You can replace this:
 
-     JSON.parse(response.body)
+    JSON.parse(response.body)
 
-You can write this:
+With this:
 
-     JSON.parse(response.json)
+    response.json
 
+You can replace these:
+
+    response.json["data"]
+    response.json["errors"]
+    response.json["linked"]
+    response.json["links"]
+    response.json["meta"]
+
+With these:
+
+    response.data
+    response.errors
+    response.linked
+    response.links
+    response.meta
 
 For docs go to <http://sixarm.com/sixarm_ruby_action_dispatch_response_json/doc>
 
@@ -35,7 +50,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_action_dispatch_response_json", ">=1.0.0", "<2"
+    gem "sixarm_ruby_action_dispatch_response_json", ">=1.1.0", "<2"
 
 Require:
 
@@ -57,6 +72,7 @@ To install with high security:
 
 ## Changes
 
+* 2015-02-19 1.1.0 Add response methods for top level JSON API
 * 2015-02-12 1.0.0 Create
 
 
