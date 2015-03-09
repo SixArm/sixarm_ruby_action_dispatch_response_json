@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> ActionPack Response#json method
+# Ruby » <br> ActionPack Response#json method
 
 [![Code Climate](https://codeclimate.com/github/SixArm/xid.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_action_dispatch_response_json)
 [![Build Status](https://travis-ci.org/SixArm/xid.png)](https://travis-ci.org/SixArm/sixarm_ruby_action_dispatch_response_json)
