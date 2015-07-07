@@ -3,8 +3,8 @@
 Please see README
 =end
 
-require 'action_dispatch'
-require 'json'
+require "action_dispatch"
+require "json"
 
 module ActionDispatch
   class Response
