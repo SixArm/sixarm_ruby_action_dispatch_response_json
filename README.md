@@ -1,12 +1,19 @@
 # Ruby » <br> ActionPack Response#json method
 
-[![Code Climate](https://codeclimate.com/github/SixArm/xid.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_action_dispatch_response_json)
-[![Build Status](https://travis-ci.org/SixArm/xid.png)](https://travis-ci.org/SixArm/sixarm_ruby_action_dispatch_response_json)
+<!--HEADER-OPEN-->
 
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_action_dispatch_response_json.git.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_action_dispatch_response_json.git)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_action_dispatch_response_json.git.png)](https://travis-ci.org/SixArm/sixarm_ruby_action_dispatch_response_json.git)
+
+* Git: <https://github.com/sixarm/sixarm_ruby_action_dispatch_response_json.git>
 * Doc: <http://sixarm.com/sixarm_ruby_action_dispatch_response_json/doc>
-* Gem: <http://rubygems.org/gems/sixarm_ruby_action_dispatch_response_json>
-* Repo: <http://github.com/sixarm/sixarm_ruby_action_dispatch_response_json>
-* Email: Joel Parker Henderson, <joel@sixarm.com>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_action_dispatch_response_json>
+* Contact: Joel Parker Henderson, <joel@sixarm.com>
+* Changes: See CHANGES.md file.
+* License: See LICENSE.md file.
+* Helping: See CONTRIBUTING.md file.
+
+<!--HEADER-SHUT-->
 
 
 ## Introduction
@@ -42,29 +49,26 @@ For docs go to <http://sixarm.com/sixarm_ruby_action_dispatch_response_json/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Install quickstart
+<!--INSTALL-OPEN-->
 
-Install:
+## Install
 
-    gem install sixarm_ruby_action_dispatch_response_json
+To install using a Gemfile, add this:
 
-Bundler:
+    gem "sixarm_ruby_action_dispatch_response_json", ">= 1.1.1, < 2"
 
-    gem "sixarm_ruby_action_dispatch_response_json", ">=1.1.0", "<2"
+To install using the command line, run this:
 
-Require:
+    gem install sixarm_ruby_action_dispatch_response_json -v ">= 1.1.1, < 2"
+
+To install using the command with high security, run this:
+
+    wget http://sixarm.com/sixarm.pem
+    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
+    gem install sixarm_ruby_action_dispatch_response_json -v ">= 1.1.1, < 2" --trust-policy HighSecurity
+
+To require the gem in your code:
 
     require "sixarm_ruby_action_dispatch_response_json"
 
-
-## Install with security (optional)
-
-To enable high security for all our gems:
-
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem
-    gem sources --add http://sixarm.com
-
-To install with high security:
-
-    gem install sixarm_ruby_action_dispatch_response_json --trust-policy HighSecurity
+<!--INSTALL-SHUT-->
