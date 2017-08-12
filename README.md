@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> ActionPack Response#json method
+# SixArm.com → Ruby → <br> ActionPack Response#json method
 
 <!--HEADER-OPEN-->
 
