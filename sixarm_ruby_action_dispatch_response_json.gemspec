@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_action_dispatch_response_json"
-  s.summary        = "SixArm.com » Ruby » ActionDispatch Response#json method"
+  s.summary        = "SixArm.com → Ruby → ActionDispatch Response#json method"
   s.description    = "Convert response.body to response.json"
   s.version        = "1.1.1"
 
